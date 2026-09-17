@@ -5,9 +5,9 @@ using namespace std;
 int main() {
 
     string nama = "Hafiz";
-    int umur = 17;
+    int umur = 19;
     double tinggi = 170.5;
-    char grade = 'A';
+    char grade = 'A'; 
     bool sudahLogin = true;
 
     cout << "Nama: " << nama << endl;
