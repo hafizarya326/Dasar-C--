@@ -2,11 +2,11 @@
 using namespace std;
 
 int main() {
-    // 1. Siapkan kotak angka bernama 'balok'
-    int balok = 3; 
+    int permen = 10;
+    int dimakan = 3;
 
-    // 2. Komputer bilang jumlah baloknya
-    cout << "Bayi punya balok sebanyak: " << balok;
+    int sisa = permen / dimakan;
 
-    return 0; // Mainan selesai, hore!
+    cout << "Sisa permen: " << sisa;
+    return 0; 
 }
